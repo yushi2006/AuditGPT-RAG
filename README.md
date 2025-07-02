@@ -87,6 +87,10 @@ streamlit run audit_chatbot.py
 Your web browser will automatically open to the application's URL (e.g., `http://localhost:8501`).
 
 
+## 5. Screenshots
+
+![alt text](/demo/250702_12h01m16s_screenshot.png)
+
 ## 💡 Future Improvements & Scalability
 
 This project serves as a strong foundation. Potential future enhancements include:
