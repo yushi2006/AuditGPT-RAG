@@ -19,7 +19,6 @@ This project serves as a portfolio piece demonstrating the practical application
 *   **Document Retrieval**: Instantly find and retrieve specific templates, checklists, or policies (e.g., "Find the IT security audit checklist").
 *   **On-the-Fly Summarization**: Request summaries of lengthy documents to quickly grasp key points.
 *   **Conversational Memory**: The chatbot remembers the context of the current conversation for a more natural follow-up.
-*   **Secure and Private**: Uses local, open-source embedding models to ensure document content is never sent to a third-party API for indexing.
 
 ## 🛠️ Tech Stack & Architecture
 
@@ -87,21 +86,12 @@ streamlit run audit_chatbot.py
 
 Your web browser will automatically open to the application's URL (e.g., `http://localhost:8501`).
 
-## 📸 Demo
-
-To showcase the project, you can:
-1.  Run the application locally.
-2.  Use a screen recording tool (like OBS Studio, Kap, or ScreenToGif) to record yourself uploading documents and asking questions.
-3.  Upload the recording as a GIF and replace the placeholder image at the top of this README.
 
 ## 💡 Future Improvements & Scalability
 
 This project serves as a strong foundation. Potential future enhancements include:
 *   **Persistent Vector Store**: Save the ChromaDB index to disk to avoid re-processing documents on every run.
-*   **Integration with SharePoint/OneDrive**: Add a document loader to connect directly to cloud storage.
-*   **Microsoft Teams Integration**: Deploy as a native Teams bot using the Microsoft Bot Framework.
 *   **User Authentication**: Add a login layer to manage access for different users or teams.
-*   **Deploying a Local LLM**: For maximum security, replace the OpenAI API call with a locally-hosted LLM like Llama 3 or Mistral 7B.
 
 ---
 
