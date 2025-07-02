@@ -52,8 +52,8 @@ Follow these steps to set up and run the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Audit-Assistant.git
-cd AI-Audit-Assistant
+git clone https://github.com/your-username/AuditGPT-RAG.git
+cd AuditGPT-RAG
 ```
 
 ### 2. Install Dependencies
@@ -68,7 +68,6 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 # Install dependencies
 pip install -r requirements.txt
 ```
-*(**Note**: You need to create a `requirements.txt` file. See the section below.)*
 
 ### 3. Set Up Environment Variables
 
@@ -87,25 +86,6 @@ streamlit run audit_chatbot.py
 ```
 
 Your web browser will automatically open to the application's URL (e.g., `http://localhost:8501`).
-
-### 5. Create a `requirements.txt` File
-
-To make installation easier for others, create a `requirements.txt` file in your project's root directory with the following content:
-
-```
-streamlit
-langchain
-langchain-openai
-langchain-community
-openai
-python-dotenv
-pypdf
-python-docx
-openpyxl
-chromadb
-sentence-transformers
-```
-Then, you or anyone else can install all dependencies with a single command: `pip install -r requirements.txt`.
 
 ## 📸 Demo
 

@@ -9,3 +9,4 @@ python-docx
 openpyxl
 chromadb
 sentence-transformers
+InstructorEmbedding
